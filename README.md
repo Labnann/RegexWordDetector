@@ -9,6 +9,6 @@ Input: A word
 
 Output: A Regex that:
 
-  -> Matches pattern like this. input :tEsT, sentence  TeeeeeSSSSSSTTTTT test testing attest test. In this sentence "TeeeeeSSSSSSTTTTT" "test" "test." will be matched. But not   attest.
-  
-  -> Does not contain / in front and / in the end
+  -> Matches pattern like this. input :test, sentence: "tesssstttttt test testing attest test." In this sentence "tesssstttttt" "test" "test." will be matched. But not   attest.
+ 
+ 
