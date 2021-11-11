@@ -1,0 +1,23 @@
+{
+  "name": "regex_bad_word_detector",
+  "version": "1.0.0",
+  "description": "regex_bad_word_detector",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Labnann/RegexWordDetector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Labnann/RegexWordDetector/issues"
+  },
+  "homepage": "https://github.com/Labnann/RegexWordDetector#readme"
+}
