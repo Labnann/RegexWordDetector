@@ -2,12 +2,56 @@
 <title>
     RegexMatcher
 </title>
+<style>
+    body {
+        background-color: black;
+    }
+
+    .text_view {
+        color: wheat;
+        background-color: rgb(62, 62, 68, .9);
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    #input_text {
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+    }
+
+    #run_button {
+        grid-column-start: 3;
+        grid-column-end: 4;
+
+    }
+
+    #output_text {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+</style>
+
 <body>
-    <input id="input_text" type="text">
-    <button id="run_button">get!</button>
-    <div>
-        <p id="output_text"></p>
+    <div style="width: 70%;">
+        <div class="grid-container">
+
+            <input placeholder="input" id="input_text" class="text_view " type="text">
+
+
+            <button id="run_button" class="text_view">get!</button>
+
+
+
+            <input id="output_text" placeholder="output" class="text_view" readonly>
+
+            <script src="./matchFinder.js"></script>
+            <script src="./ui.js"></script>
+
+        </div>
+        <p style="color: wheat;">Click On The Output To Copy</p>
     </div>
-    <script src="./matchFinder.js"></script>
-    <script src="./ui.js"></script>
 </body>
